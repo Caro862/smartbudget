@@ -1,0 +1,36 @@
+// ==========================================
+// Ajustes personalizados sobre las Cards de Bootstrap
+// ==========================================
+
+// Tu contenedor de la grilla (puedes mantenerlo si deseas espaciado extra)
+.features {
+    &__grid {
+        list-style: none;
+        padding: 0;
+    }
+}
+
+// Estilos que personalizan la tarjeta de Bootstrap sin romperla
+.card {
+    transition: $transition-fast;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+
+    // Tu contenedor del icono (Esto no lo trae Bootstrap, así que se mantiene impecable)
+    &__icon-wrapper {
+        background-color: #e8f8f0; 
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__icon {
+        width: 35px;
+        height: 35px;
+    }
+}
