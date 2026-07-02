@@ -6,7 +6,7 @@ Este proyecto corresponde a la evaluación del Módulo 3 de Desarrollo de la Int
 - HTML5
 - CSS3
 - SASS
-- Bootstrap 4
+- Bootstrap 5 
 - JavaScript
 
 ## Metodología Utilizada: BEM (Block, Element, Modifier)

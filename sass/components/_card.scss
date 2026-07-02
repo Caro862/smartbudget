@@ -10,7 +10,6 @@
     }
 }
 
-// Estilos que personalizan la tarjeta de Bootstrap sin romperla
 .card {
     transition: $transition-fast;
 
@@ -18,7 +17,6 @@
         transform: translateY(-5px);
     }
 
-    // Tu contenedor del icono (Esto no lo trae Bootstrap, así que se mantiene impecable)
     &__icon-wrapper {
         background-color: #e8f8f0; 
         width: 70px;

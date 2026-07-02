@@ -9,34 +9,30 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between; // Separa el logo del menú en los extremos
-    align-items: center;            // Centra los elementos verticalmente
+    justify-content: space-between;
+    align-items: center;          
     max-width: 1200px;
-    margin: 0 auto;                 // Centra la barra en pantallas grandes
+    margin: 0 auto;         
     padding: 2rem;
 
-    // Elemento: Logo
     &__logo {
             font-size: 2.4rem;
         font-weight: 700;
         color: $color-white;
     }
-
-    // Modificador del Logo (Texto destacado)
     &__brand {
         &--highlight {
-            color: $color-primary; // El verde finanzas
+            color: $color-primary;
         }
     }
 
-    // Elemento: Menú (Lista ul)
     &__menu {
         display: flex;
         align-items: center;
-        gap: 3rem; // Espaciado moderno entre los enlaces
+        gap: 3rem;
     }
 
-    // Elemento: Enlaces individuales
+
     &__link {
         color: $color-white;
         font-weight: 500;
@@ -47,7 +43,6 @@
             color: $color-primary;
         }
 
-        // Modificador: Botón Call To Action (Probar Gratis)
         &--cta {
             background-color: $color-primary;
             color: $color-secondary;
@@ -58,7 +53,7 @@
             &:hover {
                 background-color: $color-white;
                 color: $color-secondary;
-                transform: translateY(-2px); // Sutil efecto hacia arriba
+                transform: translateY(-2px);
             }
         }
     }
