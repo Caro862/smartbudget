@@ -1,4 +1,6 @@
 
+@use 'sass:color';
+
 .hero {
     display: flex;
     flex-direction: column;
@@ -48,7 +50,7 @@
         color: $color-secondary;
 
         &:hover {
-            background-color: lighten($color-primary, 10%);
+            background-color: color.lighten($color-primary, 10%);
             transform: translateY(-2px);
         }
     }
