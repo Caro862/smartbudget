@@ -1,12 +1,12 @@
 // Abstracts
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@use 'abstracts/variables';
+@use'abstracts/mixins';
 
 // Base
-@import 'base/base';
-@import 'base/typography';
+@use 'base/base';
+@use 'base/typography';
 
 // Components
-@import 'components/navbar';
-@import 'components/hero';
-@import 'components/card';
+@use 'components/navbar';
+@use 'components/hero';
+@use 'components/card';
